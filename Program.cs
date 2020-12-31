@@ -12,6 +12,11 @@ namespace bpp
         static System.String run;
         bool is_string = false;
 
+        /*
+        ************************************
+        This function needs to be worked on.
+        ************************************
+        */
         static void Main()
         {
             string[] args = Environment.GetCommandLineArgs();
