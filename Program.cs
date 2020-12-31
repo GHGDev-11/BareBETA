@@ -18,7 +18,6 @@ namespace bpp
             foreach (string arg in args)
             {
                 argv.Add(arg);
-                //Console.WriteLine($"{arg}: {argv.IndexOf(arg)}");
             }
 
             try
