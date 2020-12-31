@@ -1,0 +1,125 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "bpp/1.0.0": {
+        "dependencies": {
+          "Microsoft.ClearScript": "7.0.0",
+          "Microsoft.ClearScript.Core": "7.0.0"
+        },
+        "runtime": {
+          "bpp.dll": {}
+        }
+      },
+      "Microsoft.ClearScript/7.0.0": {
+        "dependencies": {
+          "Microsoft.ClearScript.V8": "7.0.0",
+          "Microsoft.ClearScript.V8.Native.win-x64": "7.0.0",
+          "Microsoft.ClearScript.V8.Native.win-x86": "7.0.0",
+          "Microsoft.ClearScript.Windows": "7.0.0"
+        }
+      },
+      "Microsoft.ClearScript.Core/7.0.0": {
+        "runtime": {
+          "lib/net5.0/ClearScript.Core.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "Microsoft.ClearScript.V8/7.0.0": {
+        "dependencies": {
+          "Microsoft.ClearScript.Core": "7.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/ClearScript.V8.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "Microsoft.ClearScript.V8.Native.win-x64/7.0.0": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/ClearScriptV8.win-x64.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "Microsoft.ClearScript.V8.Native.win-x86/7.0.0": {
+        "runtimeTargets": {
+          "runtimes/win-x86/native/ClearScriptV8.win-x86.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      },
+      "Microsoft.ClearScript.Windows/7.0.0": {
+        "dependencies": {
+          "Microsoft.ClearScript.Core": "7.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/ClearScript.Windows.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "bpp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.ClearScript/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sgmERobSoWr+nIDJTHfPrXRpsMN7+NyWKQf5vorHZNaklqBH7nChXIBPffarhJT2PHTLFhoZ2E/MaIL1A2bemQ==",
+      "path": "microsoft.clearscript/7.0.0",
+      "hashPath": "microsoft.clearscript.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.ClearScript.Core/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-15QCYnD1VZYSKkxhz+cEGVCkNgwmiyaCE4RRVrDKra75MZ2ZA9aYEb9TLUajugLdnlfsOiNKnOFLCAqF/4+SBA==",
+      "path": "microsoft.clearscript.core/7.0.0",
+      "hashPath": "microsoft.clearscript.core.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.ClearScript.V8/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U4i0DszCsBRb5oAV0cX6RX7EZaZnt3QAkgApXFBr7rY+Szi12mswLWx2h4ctejdBEy2Jb48DsTAISiVF8iBUPA==",
+      "path": "microsoft.clearscript.v8/7.0.0",
+      "hashPath": "microsoft.clearscript.v8.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.ClearScript.V8.Native.win-x64/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AKjpEzEWJYBCt3d1SsabLCx4GyJvW7SKds8krbyDLPnDs9SUueynHsxVqtoqxdndwRlzBQhWGA/HJs4kv27XFg==",
+      "path": "microsoft.clearscript.v8.native.win-x64/7.0.0",
+      "hashPath": "microsoft.clearscript.v8.native.win-x64.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.ClearScript.V8.Native.win-x86/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lUJ0x0hTV1/8EfSGCm+QQKzZessKto4mwxPboEBZBfzoudcmzwVMFUgCUAu+gKhW7feVDmxQBDPjQE1ll+5Y/Q==",
+      "path": "microsoft.clearscript.v8.native.win-x86/7.0.0",
+      "hashPath": "microsoft.clearscript.v8.native.win-x86.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.ClearScript.Windows/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/9HCukqL/+bqOITuyv3gE+SmtzfMTZ67E+Mm6acH1ZhCRNbJz0LdyWGKjicWrQ/VqNEwJ44mXaoaB2oiqdAS6A==",
+      "path": "microsoft.clearscript.windows/7.0.0",
+      "hashPath": "microsoft.clearscript.windows.7.0.0.nupkg.sha512"
+    }
+  }
+}
