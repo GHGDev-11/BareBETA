@@ -39,6 +39,7 @@ namespace Compiler
                                 string index_joined = String.Join("\\n", content);
                                 Add($"string linecut = \"{line.Substring(5, line.Length - 5)}\";\nstring[] linesplit = Regex.Split(linecut, \":\");\nstring function = linesplit[0];\nstring steps = \"\";\nstring name = function.Substring(1, function.Length - 1);\nstring[] lines_copy = \"{index_joined}\";\nint index = \"{index_joined}\".IndexOf(\"{line}\");");
                                 break;
+                                // This doesn't work yet, we need to work on this.
                         }
                     }
                 }
